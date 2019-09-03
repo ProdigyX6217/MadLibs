@@ -1,4 +1,13 @@
 # http://i.infopls.com/fe/pc/0,,18040-1401,00.pdf
+adverb = input("Enter an Adverb: ")
+verb = input("Enter a Verb: ")
+adjective = input("Enter an Adjective: ")
+noun = input("Enter a Noun: ")
+
+
+def user_input(prompt):
+    user_input = input(prompt)
+    return user_input
 
 print ("{adverb}, my entire family went to the beach one day.")
 print ("They {verb} their towels and layed on the {adjective} beach for a while.")

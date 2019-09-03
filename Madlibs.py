@@ -1,6 +1,11 @@
 # http://i.infopls.com/fe/pc/0,,18040-1401,00.pdf
+
+# DefineFunction, Made AdverbList, E. Adverbs S. by Spaces, Split A.L,
 def adverb():
-    input("Enter an Adverb: ")
+    adverb_list = []
+    user_adverb = input("Enter Adverb separated by Spaces: ")
+    split_adverb = user_adverb.split(" ")
+    adverb_list.append(split_adverb)
     return
 
 def verb():
